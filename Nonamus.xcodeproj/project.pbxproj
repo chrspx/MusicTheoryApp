@@ -13,6 +13,8 @@
 		A6256277203CFD10008538F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6256276203CFD10008538F9 /* Assets.xcassets */; };
 		A625627A203CFD10008538F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6256278203CFD10008538F9 /* LaunchScreen.storyboard */; };
 		A6256285203CFD10008538F9 /* NonamusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6256284203CFD10008538F9 /* NonamusTests.swift */; };
+		A6256290203CFD27008538F9 /* NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A625628F203CFD27008538F9 /* NoteTests.swift */; };
+		A6256292203CFD48008538F9 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6256291203CFD48008538F9 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A6256280203CFD10008538F9 /* NonamusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NonamusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6256284203CFD10008538F9 /* NonamusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonamusTests.swift; sourceTree = "<group>"; };
 		A6256286203CFD10008538F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A625628F203CFD27008538F9 /* NoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTests.swift; sourceTree = "<group>"; };
+		A6256291203CFD48008538F9 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		A625626E203CFD10008538F9 /* Nonamus */ = {
 			isa = PBXGroup;
 			children = (
+				A6256291203CFD48008538F9 /* Note.swift */,
 				A625626F203CFD10008538F9 /* AppDelegate.swift */,
 				A6256271203CFD10008538F9 /* ViewController.swift */,
 				A6256273203CFD10008538F9 /* Main.storyboard */,
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				A6256284203CFD10008538F9 /* NonamusTests.swift */,
+				A625628F203CFD27008538F9 /* NoteTests.swift */,
 				A6256286203CFD10008538F9 /* Info.plist */,
 			);
 			path = NonamusTests;
@@ -201,6 +207,7 @@
 			files = (
 				A6256272203CFD10008538F9 /* ViewController.swift in Sources */,
 				A6256270203CFD10008538F9 /* AppDelegate.swift in Sources */,
+				A6256292203CFD48008538F9 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6256285203CFD10008538F9 /* NonamusTests.swift in Sources */,
+				A6256290203CFD27008538F9 /* NoteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
